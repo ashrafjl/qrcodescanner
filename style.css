@@ -1,0 +1,42 @@
+body{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:100vh;
+}
+.wrapper{
+	background: #ccc;
+	padding:30px;
+	border-radius: 10px;
+	width:420px;
+	height:210px;
+	overflow:hidden;
+	
+}
+.wrapper.active{
+	height: 400px;
+}
+p{
+	background: #C70039;
+	padding:10px;
+	border-radius:5px;
+	cursor: pointer;
+	color:#fff;
+}
+.inputarea form{
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		flex-direction:column;
+}
+img{
+	width: 40%;
+}
+textarea{
+	width:100%;
+	resize:none;
+	min-height: 150px;
+	font-size: 16px;
+	padding:8px; 
+	border-radius: 8px;
+}
